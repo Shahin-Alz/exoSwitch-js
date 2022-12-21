@@ -134,13 +134,27 @@
 // n3
 
 // let nombre = +prompt("un chiffre entre 1 et 100")
-
 // switch (true) {
-//     case nombre >=90 && nombre<=100 :
+//     case nombre >= 90 && nombre <= 100:
 //         console.log("a");
-        
+
+//         break;
+
+//     case nombre < 90 && nombre >= 70:
+//         console.log("b");
+
 //         break;
 
 //     default:
 //         break;
 // }
+
+let c = prompt("entre une lettre")
+
+switch (true) {
+    case c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z':
+        console.log("a");
+
+        break;
+
+}
